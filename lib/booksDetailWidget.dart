@@ -48,21 +48,23 @@ class booksDetailWidget extends StatelessWidget {
                           children: const <Widget>[
                             ListTile(
                               leading: Icon(Icons.book_outlined),
-                              title: Text("${books[veri].name}"),
+                              title: Text("KİTAP ADI"),
+                              // ${books[veri].name}
                             ),
                             ListTile(
                               leading: Icon(Icons.book_outlined),
-                              title: Text("${books[veri].author}"),
+                              title: Text("YAZAR"),
+                              // ${books[veri].author}
                             ),
                             ListTile(
                               leading: Icon(Icons.book_outlined),
-                              title: Text(
-                                  "${authorlist[veri].birthYear}-${authorlist[veri].deathYear}"),
+                              title: Text("YAZARIN BİRTH YEAR- DEATH YEAR"),
+                              // ${authorlist[veri].birthYear}-${authorlist[veri].deathYear}
                             ),
                             ListTile(
                               leading: Icon(Icons.date_range),
-                              title: Text("Publication date:"),
-                              subtitle: Text("${detail[veri].year}"),
+                              title: Text("PUBLİCATİON DATE"),
+                              // ${detail[veri].year}
                             )
                           ],
                         ),
