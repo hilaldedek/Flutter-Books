@@ -1,6 +1,6 @@
 class Books {
+  int id;
   String name;
   String author;
-  String cost;
-  Books(this.name, this.author, this.cost);
+  Books({required this.id, required this.name, required this.author});
 }

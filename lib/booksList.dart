@@ -4,14 +4,21 @@ import 'package:helloworld/books.dart';
 
 class BooksList {
   static List<Books> booksList = [
-    Books("1984", "George Orwell", "1.99"),
-    Books("The Fault in Our Stars", "John Green", "1.99"),
-    Books("Harry Potter and the Chamber of Secrets", "J.K. Rowling", "1.99"),
-    Books("Doctor Who: Once Upon A Time Lord", "Dan Slott", "1.99"),
-    Books("The One and Only Ruby", "Katherine Applegate", "1.99"),
-    Books("Chess Story", "Stefan Zweig", "1.99"),
-    Books("The Master and Margarita", "Mikhail Bulgakov", "1.99"),
-    Books("The Brothers Karamazov", "Fyodor Dostoyevsky", "1.99"),
-    Books("Harry Potter and the Goblet of Fire", "J.K. Rowling", "1.99"),
+    Books(id: 0, name: "1984", author: "George Orwell"),
+    Books(id: 1, name: "The Fault in Our Stars", author: "John Green"),
+    Books(
+        id: 2,
+        name: "Harry Potter and the Chamber of Secrets",
+        author: "J.K. Rowling"),
+    Books(
+        id: 3, name: "Doctor Who: Once Upon A Time Lord", author: "Dan Slott"),
+    Books(id: 4, name: "The One and Only Ruby", author: "Katherine Applegate"),
+    Books(id: 5, name: "Chess Story", author: "Stefan Zweig"),
+    Books(id: 6, name: "The Master and Margarita", author: "Mikhail Bulgakov"),
+    Books(id: 7, name: "The Brothers Karamazov", author: "Fyodor Dostoyevsky"),
+    Books(
+        id: 8,
+        name: "Harry Potter and the Goblet of Fire",
+        author: "J.K. Rowling"),
   ];
 }
